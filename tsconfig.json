@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["jest", "@testing-library/jest-dom"],
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.{ts,tsx}", "src/**/*.test.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
